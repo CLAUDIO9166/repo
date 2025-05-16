@@ -1,0 +1,16 @@
+[project]
+name = "proj-acs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "crewai>=0.117.1",
+    "crewai-tools>=0.42.2",
+    "fpdf>=1.7.2",
+    "langchain-ollama>=0.3.2",
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+    "streamlit>=1.44.1",
+    "streamlit-option-menu>=0.4.0",
+]
